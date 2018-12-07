@@ -3,13 +3,13 @@ Docker Healthcheck for HTTP and AJP endpoints
 
 The `healthcheck` command line utility is designed to be used as a
 Docker health check. It can be used to check the status code returned
-by a GET or HEAD method to an HTTP or AJP endpoint.  The program
-can be installed using the following command:
+by a GET or HEAD method to an HTTP or [AJP](https://tomcat.apache.org/connectors-doc/ajp/ajpv13a.html) endpoint.
+
+The `healthcheck` program can be installed using the following command:
 ```
-    $ go install github.com/techservicesillinois/healthcheck
+    $ go get github.com/techservicesillinois/healthcheck
 ```
-The utility is also avaliable as a Docker image on [Docker
-Hub](https://hub.docker.com/r/techservicesillinois/healthcheck/).
+The utility is also available as a Docker image on [Docker Hub](https://hub.docker.com/r/techservicesillinois/healthcheck/).
 
 Usage
 -----
